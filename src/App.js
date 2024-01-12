@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import BestRest from './Components/BestRest';
+import Footer from './Components/Footer';
+import Navigate from './Components/Navigate';
+import OffersBanner from './Components/OffersBanner';
+import RestaurentChain from './Components/RestaurentChain';
+import RestaurentOnline from './Components/RestaurentOnline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigate/>
+      <OffersBanner/>
+      <RestaurentChain/>
+      <RestaurentOnline/>
+      <BestRest/>
+      <Footer/>
     </div>
   );
 }
