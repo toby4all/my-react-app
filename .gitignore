@@ -24,3 +24,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.oluwatobi_accessKeys.csv*
+.swiggy-app.pem*
