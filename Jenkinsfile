@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/sridhar-modalavalasa/Swiggy-Clone-App.git'
+                git branch: 'main', url: 'https://github.com/toby4all/my-react-app.git'
             }
         }
         stage("Sonarqube Analysis "){
